@@ -101,6 +101,6 @@ try :
         print("A time = :", finish - middle2)
         print_matrix(A,"A")
 
-except FileNotFoundError:
-    print("\nФайл text.txt в директории проекта не обнаружен.\nДобавьте файл в директорию или переименуйте существующий *.txt файл.")
+except ValueError:
+    print("\nЭто не число")
 
