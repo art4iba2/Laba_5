@@ -42,6 +42,7 @@ try :
     for i in range (N):            #копируем элементы из матрицы А в F
         for j in range(N):
             F[i][j]=A[i][j]
+    print_matrix(F,"F")
     E=[]
     n = N // 2
     E = np.zeros((n,n),dtype=int)
